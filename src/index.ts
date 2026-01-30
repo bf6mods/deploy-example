@@ -21,7 +21,7 @@ log.info(
 );
 
 let sessionId = await text({
-    message: "Auth code",
+    message: "Session Id",
     placeholder: "web-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
     validate(value) {
         if (value?.length === 0) return `Value is required!`;
