@@ -1,0 +1,19 @@
+{
+    "name": "deploy-example",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "start": "tsx src/index.ts"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "tsx": "^4.21.0"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@bf6mods/portal": "^1.1.0",
+        "@clack/prompts": "^1.0.0"
+    }
+}
